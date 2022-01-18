@@ -10,10 +10,10 @@
 
 <body>
     <header>
-        <a href="/">LOGO</a>
+        <a href="{{ route('home') }}">LOGO</a>
         <ul>
-            <li> <a href="/">Home page</a> </li>
-            <li> <a href="/about">About us</a> </li>
+            <li> <a href="{{ route('home') }}">Home page</a> </li>
+            <li> <a href="{{ route('about') }}">About us</a> </li>
         </ul>
     </header>
     <main>

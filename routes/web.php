@@ -17,10 +17,10 @@ Route::get('/', function () {
     return view('home', [
         'title' => 'Primi passi con Laravel',
     ]);
-});
+})->name('home');
 
 Route::get('/about', function () {
     return view('about', [
-        // 'title' => 'About us !!!',
+        'title' => 'About us !!!',
     ]);
-});
+})->name('about');
